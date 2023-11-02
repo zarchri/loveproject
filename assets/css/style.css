@@ -1,30 +1,33 @@
 /*Google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-/*asterinsk wildcard sel ector to overvide dfalt styles addedbythe browser*/
-*¨ {
-    padig: 0;
+/*asterinsk wildcard selector to override defalt styles added by the browser*/
+* {
+    padding: 0;
     margin: 0;
-    bo-szing: border-box;
+    box-sizing: border-box;
+}
 
-    general styles*/ body {
-        min-height: 100vh;
-        d play: flex;
-        flex-direction: column;
-        /*Gene ric project styles*/
-        color: #3a3a3a;
-        font-family: Lato, sansseif;
-    }
+/*general styles*/
 
-    /*header*/
-    der {
-        background-color: lightcoral;
-    }
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Generic project styles*/
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
 
-    /*main* 
-main{
+/*header*/
+header {
+    background-color: lightcoral;
+}
+
+/*main*/
+main {
     background-color: lightblue;
-    /*Make main element take up any surplus space to push footer down*/
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
